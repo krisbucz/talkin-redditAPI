@@ -3,13 +3,13 @@ This is my React App "Talkin" made for the codecademy Reddit Client project from
 
 ## Wireframes
 
-- Initail Desktop 1920 view
+- Initial Desktop 1920 view
 ![initial desktop](./READMEwireframe/initialDesktop.png)
 
 - Detailed Desktop 1920 view
 ![detailed desktop](./READMEwireframe/detailedDesktop.png)
 
-- Initail Iphone 8 view
+- Initial Iphone 8 view
 ![initial iPhone 8](./READMEwireframe/initialiphone8.png)
 
 - Detailed Iphone 8 view
