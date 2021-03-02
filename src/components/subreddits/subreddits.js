@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function subreddits(props){
+export function Subreddits(props){
     return (
         <div id="subredditContainer">
 

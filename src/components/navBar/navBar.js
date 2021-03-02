@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './navBar.css';
+import logo from '../../images/logo.png';
 
-export function navBar(props){
+export function NavBar(props){
     return (
     <div id="navBarContainer">
-        <img src="../../../public/images/logo.png"/>
+        <img src={logo} id="logo"/>
         <p id="searchText">Search:</p>
     </div>
     )

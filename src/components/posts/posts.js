@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function posts(props){
+export function Posts(props){
     return (
         <div id="postsContainer">
 
