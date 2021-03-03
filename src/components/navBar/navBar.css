@@ -1,6 +1,5 @@
 #navBarContainer{
-    width: 98%;
-    margin: 0 1%;
+    width: 100%;
     background-color: #FFEE97;
     position: fixed;
     border-radius: 10px;
@@ -8,10 +7,12 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    grid-area: 1 / 1 / 2 / 3;
 }
 #logo{
     justify-self: left;
     margin: 2px;
+    height: 70px
 }
 #searchText{
     justify-self: right;

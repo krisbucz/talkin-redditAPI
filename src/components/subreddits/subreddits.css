@@ -1,0 +1,9 @@
+#subredditsContainer{
+    width: 100%;
+    min-height: 100%;
+    background-color: #FFEE97;
+    border-radius: 10px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    grid-area: 2 / 2 / 3 / 3;
+}
