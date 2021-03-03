@@ -1,0 +1,14 @@
+.subredditItem{
+    width: 100%;
+    display: inline-block;
+    border-bottom: gray 3px solid;
+    text-align: center;
+}
+.subredditItem img{
+    float: left;
+    margin: 5%;
+    width: 10%;
+}
+.subredditItem h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

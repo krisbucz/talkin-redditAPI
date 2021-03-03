@@ -7,3 +7,9 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
     grid-area: 2 / 2 / 3 / 3;
 }
+#subredditsList{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 2%;
+}
