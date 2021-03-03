@@ -1,0 +1,19 @@
+#searchForm{
+    grid-column: 4 / 5;
+    display: inline;
+}
+#searchInput {
+    width: 80%;
+    height: 50%;
+    font-size: 1.5em;
+    border: none;
+    margin: 2px;
+    border-radius: 10px;
+}
+#searchSubmit{
+    width: 10%;
+    font-size: 1.5em;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 3px #99AAFF;
+}
