@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './liveThreads.css';
-import arrow from '../../../images/arrow.png'
-import comments from '../../../images/comments.png'
+import arrow from '../../../images/arrow.png';
+import comments from '../../../images/comments.png';
 
 export function LiveThreads(props){
 
@@ -19,7 +19,7 @@ export function LiveThreads(props){
                 <hr />
                 <p>{postsData.contents}</p>
                 <hr />
-                <author>{postsData.author_fullname}</author>
+                <p className='author'>{postsData.author}</p>
                 <img src={comments}/>
             </section>
         </div>
