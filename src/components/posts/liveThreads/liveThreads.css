@@ -1,0 +1,54 @@
+.threadsPost{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    max-height: 250px;
+}
+.upvoteSection{
+    background-color: #99AAFF;
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.upvoteSection img{
+    width: 25%;
+    height: 25%;
+    margin: 3px;
+}
+.upvote{
+    transform: rotate(180deg);
+}
+.upvoteSection p{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.postSection{
+    width: 80%
+}
+.postSection h2{
+    margin: 3px 3%;
+    font-weight: 700;
+    font-size: 2em;
+}
+.postSection p{
+    margin: 3px 3%;
+    font-weight: 700;
+}
+.postSection hr{
+    color: black;
+    border: 2px solid black;
+    width: 94%;
+}
+.postSection img{
+    width: 40px;
+    margin: 3px 3%;
+    float: right;
+}
+author{
+    color: #99AAFF;
+    margin: 3px 3%;
+    font-weight: 700;
+}

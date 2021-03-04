@@ -8,6 +8,7 @@
     grid-template-columns: repeat(1fr, 4);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
     grid-area: 1 / 1 / 2 / 3;
+    z-index: 100;
 }
 #logo{
     grid-column: 1 / 2;
