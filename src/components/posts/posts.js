@@ -8,10 +8,8 @@ export function Posts(){
 
     const [postsData, setPostsData] = useState([])
 
-    console.log(postsData);
-
     useEffect(() => { 
-           let dataToSet = redditAPI.handleOnload('ufc')
+           redditAPI.handleOnload('ufc')
           .then(results => {
               results.forEach(post => {
                 setPostsData((prev) => [{
@@ -24,6 +22,9 @@ export function Posts(){
               })
           })
     }, [])
+
+    
+
 
     return (
         <div id="postsContainer">

@@ -3,7 +3,8 @@
     width: 100%;
     display: flex;
     flex-flow: row;
-    max-height: 250px;
+    max-height: 300px;
+    margin: 10px 0;
 }
 .upvoteSection{
     background-color: #99AAFF;
@@ -14,8 +15,8 @@
     justify-content: space-between;
 }
 .upvoteSection img{
-    width: 25%;
-    height: 25%;
+    width: 50px;
+    height: 50px;
     margin: 3px;
 }
 .upvote{
@@ -28,23 +29,23 @@
 .postSection{
     width: 80%
 }
-.postSection h2{
+.title{
     margin: 3px 3%;
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 600;
+    font-size: 1.5em;
 }
-.postSection p{
+.contents{
     margin: 3px 3%;
-    font-weight: 700;
+    font-weight: 500;
 }
 .postSection hr{
     color: black;
     border: 2px solid black;
     width: 94%;
 }
-.postSection img{
+.commentsButton{
     width: 40px;
-    margin: 3px 3%;
+    margin: 1px 3%;
     float: right;
 }
 .author{

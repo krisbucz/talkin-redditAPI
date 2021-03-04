@@ -15,12 +15,12 @@ export function LiveThreads(props){
                 <img src={arrow} className="downvote"/>
             </section>
             <section className="postSection">
-                <h2>{postsData.title}</h2>
-                <hr />
-                <p>{postsData.contents}</p>
-                <hr />
+                <h2 className="title">{postsData.title}</h2>
+                {postsData.contents.length > 0? <hr /> : null}
+                <p class="contents">{postsData.contents.substring(0, 400) + (postsData.contents.length > 400 ? " [...Read More]" : "")}</p>
+                <hr className="line"/>
                 <p className='author'>{postsData.author}</p>
-                <img src={comments}/>
+                <img src={comments} className='commentsButton'/>
             </section>
         </div>
     )
