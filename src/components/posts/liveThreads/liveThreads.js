@@ -17,8 +17,8 @@ export function LiveThreads(props){
             <section className="postSection">
                 <h2 className="title">{postsData.title}</h2>
                 {postsData.contents.length > 0? <hr /> : null}
-                <p class="contents">{postsData.contents.substring(0, 400) + (postsData.contents.length > 400 ? " [...Read More]" : "")}</p>
-                <hr className="line"/>
+                <p className="contents">{postsData.contents.substring(0, 400) + (postsData.contents.length > 400 ? " [...Read More]" : "")}</p>
+                <hr />
                 <p className='author'>{postsData.author}</p>
                 <img src={comments} className='commentsButton'/>
             </section>

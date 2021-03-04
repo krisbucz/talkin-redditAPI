@@ -3,12 +3,12 @@ import './subreddit.css';
 import icon from '../../../images/searchMobile.png';
 
 export function Subreddit(props){
-    const {subreddit} = props;
+    const {subreddits} = props;
 
     return (
         <li className="subredditItem">
-            <img src={icon} />
-            <h3>{subreddit.name}</h3>
+            <img src={subreddits.icon === "" ? icon: subreddits.icon} />
+            <h3>{subreddits.name}</h3>
         </li>
     )
 }

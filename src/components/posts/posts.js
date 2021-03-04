@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './posts.css';
 import {LiveThreads} from './liveThreads/liveThreads';
-import redditAPI from './liveThreads/liveThreadsAPI';
+import redditAPI from '../app/redditAPI';
 
 
 export function Posts(){
@@ -24,8 +24,6 @@ export function Posts(){
     }, [])
 
     
-
-
     return (
         <div id="postsContainer">
                 {postsData.map((postsData) => (
