@@ -3,14 +3,14 @@ import './posts.css';
 import {LiveThreads} from './liveThreads/liveThreads';
 import redditAPI from '../app/redditAPI';
 
-
 export function Posts(){
 
     const [postsData, setPostsData] = useState([])
+    const [subredditUrl, setSubredditUrl] = useState('/r/home/')
 
     useEffect(() => { 
-           redditAPI.handleOnload('ufc')
-          .then(results => {
+           redditAPI.handleOnload(subredditUrl)
+          .then(results => { console.log(results)
               results.forEach(post => {
                 setPostsData((prev) => [{
                     title: post.title,
@@ -21,9 +21,15 @@ export function Posts(){
                 }, ...prev]); 
               })
           })
-    }, [])
+    }, [subredditUrl])
+/*
+    useEffect(()=>{
+        setSubredditUrl(()=>{
+            
+        })
+    })
+*/
 
-    
     return (
         <div id="postsContainer">
                 {postsData.map((postsData) => (

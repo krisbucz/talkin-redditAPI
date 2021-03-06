@@ -9,6 +9,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "redux": "^4.0.5",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
@@ -34,5 +35,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This is my React App \"Talkin\" made for the codecademy Reddit Client project from the PATH.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisbucz/talkin-redditAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisbucz/talkin-redditAPI/issues"
+  },
+  "homepage": "https://github.com/krisbucz/talkin-redditAPI#readme"
 }

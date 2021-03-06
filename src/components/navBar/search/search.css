@@ -17,3 +17,7 @@
     border-radius: 10px;
     border: solid 3px #99AAFF;
 }
+#searchSubmit:hover{
+    background-color: #99AAFF;
+    border: solid 3px black;
+}

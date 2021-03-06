@@ -3,6 +3,10 @@
     display: inline-block;
     border-bottom: gray 3px solid;
     text-align: center;
+    transition: 2s;
+}
+.subredditItem:hover{
+    background-color: #99AAFF;
 }
 .subredditItem img{
     float: left;
